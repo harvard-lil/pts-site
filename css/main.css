@@ -1,40 +1,47 @@
 
 @font-face {
     font-family:PostGrotesk;
-    src: url(../fonts/PostGrotesk-Book.eot?) format("eot"),url(../fonts/PostGrotesk-Book.woff) format("woff");
-    font-weight:300;
+    src: url(../fonts/PostGrotesk-Book.eot?) format("eot"),url(../fnt/PostGrotesk-Book.woff) format("woff");
+    font-weight:400;
     font-style:normal
 }
 
 @font-face {
     font-family:PostGrotesk;
-    src:url(../fonts/PostGrotesk-BookItalic.eot?) format("eot"),url(../fonts/PostGrotesk-BookItalic.woff) format("woff");
+    src:url(../fonts/PostGrotesk-BookItalic.eot?) format("eot"),url(../fnt/PostGrotesk-BookItalic.woff) format("woff");
     font-weight:300;
     font-style:italic
 }
 
 @font-face {
     font-family:PostGrotesk;
-    src:url(../fonts/PostGrotesk-Medium.eot?) format("eot"),url(../fonts/PostGrotesk-Medium.woff) format("woff");
+    src:url(../fonts/PostGrotesk-Medium.eot?) format("eot"),url(../fnt/PostGrotesk-Medium.woff) format("woff");
     font-weight:500;
     font-style:normal
 }
 
 @font-face {
     font-family:PostGrotesk;
-    src:url(../fonts/PostGrotesk-Bold.eot?) format("eot"),url(../fonts/PostGrotesk-Bold.woff) format("woff");
+    src:url(../fonts/PostGrotesk-Bold.eot?) format("eot"),url(../fnt/PostGrotesk-Bold.woff) format("woff");
     font-weight:700;
     font-style:normal
 }
 
+/* green                #64bb4a  */
+/* sal man              #ff6861 */
+/* purple urple         #6362c6 */
+/* dark gray            #666  */
+/* just about black     #222  */
+
 
 body {
     font-family: PostGrotesk,Helvetica,Arial,sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 27px;
     background-color: #64bb4a;
     color: #fff;
     font-weight:300;
+
 }
 
 /*  grid adjustments */
@@ -48,73 +55,147 @@ body {
 }
 
 .row   {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 /*  /grid adjustments */
 
 h1 {
     color: #fff;
-    font-size: 44px;
+    font-size: 52px;
     font-weight:700;
     text-align: center;
-    line-height: 70px;
+    letter-spacing: .04em;
+    margin-top: 80px;
+    margin-bottom: 120px;
 }
 
-.first-title {
-    padding-top: 70px;
-    margin-bottom: -60px;
+h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight:400;
+    line-height: 40px;
+    letter-spacing: .04em;
 }
 
-.first-title h1 {
+a {
+    text-decoration: none;
+}
+a:link    {
+
+    color: #6362c6;
+    background-color: grey;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+   }
+
+a:visited { color: #6362c6 }  /* visited links   */
+a:hover   {
+    color: #6362c6;
+    transition: border-color .5s ease-in;
+
+
+    }                         /* user hovers     */
+a:active  { color: #6362c6 }  /* active links    */
+
+.row.first-title {
+    padding-top: 80px;
+    margin-bottom: -42px;
+}
+
+.first-title h1{
+    padding-top: 40px;
+    margin-bottom: -240px;
+    line-height: 0;
+    margin-top: 0px;
     text-align: left;
-    line-height: normal;
 }
 
 .bg-stripe h1 {
-    color: #000;
+    color: #222;
 }
 
-p {
-
+.mid-par {
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
-.header img {
-    height: 45px;
+.title-img {
+    height: 370px;
+    margin-top: 60px;
 }
 
-img {
-    height: 300px;
+.line-drawing {
+    height: 400px;
 }
-
 
 .bg-stripe {
     background-color: #fff;
-    color: #000;
+    color: #222;
+}
+
+.bg-stripe button {
+    border: none;
 }
 
 .bg-stripe h2 {
-    color: #000;
+    color: #222;
 }
 
 button {
     background-color: #ff6861;
     color: #ffffff;
+    margin-top: 30px;
     padding: 10px 30px;
     border: 1px solid #ffffff;
+}
+
+#contact-button {
+    background-color: #fff;
+    color: #6362C6;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border: 1px solid #6362C6;
 }
 
 
 .pull-right {
     float: right;
-
 }
 
 .headimage {
     height: 100px;
 }
 
-
-.footerimage{
+.single-pts {
+    margin-right: 100px;
+}
+.zone p{
     text-align: center;
+}
+
+ul {
+    margin-bottom: -10px;
+}
+
+li {
+    list-style: square;
+    font-size: 16px;
+    color: #666;
+    margin-left: -20px;
+    font-family: 'Anonymous Pro', monospace;
+    padding: 0 40px 20px 0;
+}
+
+.list-container {
+    margin-left: 30px;
+}
+.split-it-visually {
+    border-left: solid 1px #fff;
+
+}
+
+.logo {
+    max-height: 100px;
 }
