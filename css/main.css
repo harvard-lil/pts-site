@@ -82,22 +82,15 @@ a {
     text-decoration: none;
 }
 a:link    {
-
     color: #6362c6;
-    background-color: grey;
-    transition-property: background-color;
-    transition-duration: 1s;
-    transition-timing-function: ease-out;
    }
 
-a:visited { color: #6362c6 }  /* visited links   */
+a:visited { color: #6362c6 }
 a:hover   {
     color: #6362c6;
-    transition: border-color .5s ease-in;
+    text-decoration: underline;
 
-
-    }                         /* user hovers     */
-a:active  { color: #6362c6 }  /* active links    */
+    }
 
 .row.first-title {
     padding-top: 80px;
@@ -165,13 +158,25 @@ button {
 }
 
 .headimage {
-    height: 100px;
+    max-width: 90%;
+    border-radius: 50%;
+    border: 1px solid #ff6861;
 }
 
 .single-pts {
     margin-right: 100px;
 }
 .zone p{
+    text-align: center;
+}
+
+.zone img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.people p{
     text-align: center;
 }
 
@@ -198,4 +203,14 @@ li {
 
 .logo {
     max-height: 100px;
+}
+
+.footer img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.footer h2 {
+    text-align: center;
 }
