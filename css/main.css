@@ -1,12 +1,14 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
-  background-color: #64bb4a;
-  color: #fff;
+  /*background-color: #64bb4a;*/
+
 }
 
 .zebra {
   background-color: #fff;
-  color: #222;
+
+  /*border-top: solid #b2d2ee 11px;*/
+
 }
 
 .header h1 {
@@ -15,6 +17,14 @@ body {
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 700;
 
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+
+  padding: 0 20px;
 }
 
 .header img{
@@ -30,13 +40,49 @@ body {
 }
 
 h2 {
-  font-size: 55px;
-  padding: 50px 0;
+  font-size: 45px;
   font-family: 'Libre Franklin', sans-serif;
+  padding: 50px 0 0 0;
+}
 
+h2 span{
+
+  border-bottom: 3px solid #64bb4a;
+  
+}
+
+.tt{padding: 10px;
+  margin-bottom: 30px;
+color: #222;
+}
+
+.tt img {
+  max-height: 400px;
 
 }
 
+.ttt {
+  border-right: 1px #fff solid;
+
+}
+
+.ttt img {
+  margin: auto;
+  display: block;
+}
+
+.ttt p {
+  max-width: 700px;
+  text-align: center;
+display: block;
+margin: 0 auto;
+}
+
+
+#carouselExampleIndicators {
+    border-bottom: 5px solid #000;
+    border-top: 5px solid #000;
+}
 footer {
   background-color: #ccc;
 }
