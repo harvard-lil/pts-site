@@ -1,0 +1,42 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  background-color: #64bb4a;
+  color: #fff;
+}
+
+.zebra {
+  background-color: #fff;
+  color: #222;
+}
+
+.header h1 {
+  padding-top: 70px;
+  font-size: 70px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+
+}
+
+.header img{
+  max-width: 700px;
+  padding: 70px 0;
+  margin: auto;
+  display: block;
+}
+
+.header {
+  text-align: center;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 55px;
+  padding: 50px 0;
+  font-family: 'Libre Franklin', sans-serif;
+
+
+}
+
+footer {
+  background-color: #ccc;
+}
