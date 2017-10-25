@@ -68,8 +68,22 @@ p {
 
 footer {
   background-color: #ccc;
+  margin-top: 60px;
 }
 
 footer p {
   margin: 0;
+}
+
+form  {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+form input {
+  line-height: 2em;
+}
+
+#mce-EMAIL {
+  width: 300px;
 }
