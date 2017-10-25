@@ -1,17 +1,18 @@
-/* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
   background-color: #64bb4a;
+  text-align: center;
 }
 
 .color-wrapper {
   background-color: #fff;
 }
+
 .header h1 {
   padding-top: 70px;
   font-size: 70px;
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 700;
-
+  letter-spacing: 2px;
 }
 
 p {
@@ -21,7 +22,7 @@ p {
   padding: 0 20px;
 }
 
-.header img{
+.header img {
   max-width: 700px;
   padding: 70px 0;
   margin: auto;
@@ -29,56 +30,42 @@ p {
 }
 
 .header {
-  text-align: center;
   margin-top: 6px;
 }
 
 h2 {
   font-size: 45px;
   font-family: 'Libre Franklin', sans-serif;
-  padding: 50px 0 0 0;
-  text-align: center;
+  margin: 100px 0 0 0;
 }
 
-h2 span{
-
+h2 span {
+  padding-bottom: 5px;
   border-bottom: 3px solid #64bb4a;
-
 }
 
-.tt{padding: 10px;
+.tt {
+  padding: 10px;
   margin-bottom: 30px;
-color: #222;
+  color: #222;
 }
 
 .tt img {
   max-height: 350px;
   margin: auto 20px;
-
 }
 
-.ttt {
-  border-right: 1px #fff solid;
-
-}
-
-.ttt img {
-  margin: auto;
+p {
+  max-width: 620px;
   display: block;
+  margin: 25px auto;
 }
-
-.ttt p {
-  max-width: 700px;
-  text-align: center;
-display: block;
-margin: 0 auto;
-}
-
 
 .carousel-inner {
-    border-bottom: 3px solid #555;
-    border-top: 3px solid #555;
+  border-bottom: 3px solid #555;
+  border-top: 3px solid #555;
 }
+
 footer {
   background-color: #ccc;
 }
@@ -86,6 +73,3 @@ footer {
 footer p {
   margin: 0;
 }
-
-
-.carousel-control-next-icon {
