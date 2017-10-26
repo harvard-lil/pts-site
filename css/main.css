@@ -67,8 +67,9 @@ p {
 }
 
 footer {
-  background-color: #ccc;
-  margin-top: 60px;
+  background-color: #3fa9f5;
+  margin-top: 100px;
+  height: 150px;
 }
 
 footer p {
@@ -86,4 +87,8 @@ form input {
 
 #mce-EMAIL {
   width: 300px;
+}
+
+.features img {
+  max-height: 350px;
 }
