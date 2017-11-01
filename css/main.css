@@ -16,7 +16,7 @@ body {
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
   padding: 0 20px;
@@ -102,10 +102,21 @@ form input {
 }
 
 .features img {
-  max-height: 350px;
+  max-height: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+.features {
+  text-align: left;
 }
 
 
 .why, .with-you {
-  background-color: #f7f7f7;
+  background-color: #fff;
+  text-align: left;
+}
+
+.why h2 {
+  margin-top: 0;
 }
