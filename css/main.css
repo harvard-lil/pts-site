@@ -41,7 +41,6 @@ h2 {
 
 h2 span {
   padding-bottom: 5px;
-  border-bottom: 3px solid #64bb4a;
 }
 
 .tt {
@@ -59,6 +58,7 @@ p {
   max-width: 620px;
   display: block;
   margin: 25px auto;
+  padding: 0;
 }
 
 .carousel-inner {
@@ -67,13 +67,15 @@ p {
 }
 
 footer {
-  background-color: #3fa9f5;
+  background-color: #64bb4a;
   margin-top: 100px;
-  height: 150px;
+  height: 50px;
 }
 
 footer p {
-  margin: 0;
+  margin: 10px auto;
+  display: inline-block;
+  color: #fff;
 }
 
 form  {
@@ -107,16 +109,37 @@ form input {
   display: block;
 }
 
-.features {
-  text-align: left;
+.features h2 {
+  font-size: 32px;
+  margin: 30px 0;
 }
 
+.text-break {
+  max-width: 800px;
+  text-align: center;
+  display: inline-block;
+  font-size: 32px;
+  margin: 30px 0;
+}
 
 .why, .with-you {
-  background-color: #fff;
   text-align: left;
 }
 
 .why h2 {
   margin-top: 0;
+}
+
+.zebra {
+  background: #64bb4a;
+  color: #fff;
+  margin: 3em 0;
+}
+
+
+hr {
+  width:10em;
+  margin-top: 50px;
+  margin-bottom: 120px;
+  border:1px solid #64bb4a;
 }
