@@ -1,6 +1,7 @@
 body {
   background-color: #64bb4a;
   text-align: center;
+  color: #444;
 }
 
 .color-wrapper {
@@ -16,10 +17,15 @@ body {
 }
 
 p {
-  font-size: 18px;
+  font-size: 1.2em;
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
   padding: 0 20px;
+
+}
+
+.header p {
+    margin-top: 0;
 }
 
 .header img {
@@ -46,7 +52,6 @@ h2 span {
 .tt {
   padding: 10px;
   margin-bottom: 30px;
-  color: #222;
 }
 
 .tt img {
@@ -55,7 +60,7 @@ h2 span {
 }
 
 p {
-  max-width: 620px;
+  max-width: 640px;
   display: block;
   margin: 25px auto;
   padding: 0;
@@ -68,8 +73,8 @@ p {
 
 footer {
   background-color: #64bb4a;
-  margin-top: 100px;
-  height: 50px;
+  margin-top: 120px;
+  height: 48px;
 }
 
 footer p {
@@ -92,15 +97,16 @@ form input {
 
 #mce-EMAIL {
   width: 400px;
-  padding: 0 5px;
-  border: 2px solid #999;
+  padding: 0 .8em;
+  border: 1px solid #999;
 }
 
 #mc-embedded-subscribe {
-  background: none;
+  background: #007bff;
   padding: 0 30px;
-  border: solid 2px #ff00ff;
-
+  color: #fff;
+  border: solid 1px #007bff;
+  cursor: pointer;
 }
 
 .features img {
@@ -130,16 +136,29 @@ form input {
   margin-top: 0;
 }
 
+.why img {
+  max-height: 430px;
+  position:absolute; bottom:0;
+  display:block;
+  margin:auto;
+}
+
+.get img {
+  margin-top: 7em;
+  margin-bottom: 0;
+  max-height: 340px;
+}
+
 .zebra {
   background: #64bb4a;
   color: #fff;
-  margin: 3em 0;
+  margin: 6em 0;
+  margin-bottom: 8em;
 }
 
 
 hr {
   width:10em;
-  margin-top: 50px;
-  margin-bottom: 120px;
+  margin: 6em auto;
   border:1px solid #64bb4a;
 }
