@@ -84,7 +84,7 @@ hr {
 .zebra {
   background: #64bb4a;
   color: #fff;
-  margin: 8em 0;
+  margin: 6em 0;
 }
 
 .zebra h2 {
@@ -100,7 +100,7 @@ hr {
 
 .features img {
   max-height: 350px;
-  margin: 0 auto;
+  margin: 2em auto 0 auto;
   display: block;
 }
 
@@ -112,12 +112,12 @@ hr {
 
 .get img {
   max-height: 340px;
-  margin: 4em 0;
+  margin: 2em 0 4em 0;
 }
 
 form  {
   display: inline-block;
-  margin: 4em auto 2em auto;
+  margin: 4em auto 1em auto;
 }
 
 form input {
