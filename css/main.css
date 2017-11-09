@@ -15,6 +15,10 @@ p {
   line-height: 1.7em;
 }
 
+.header {
+  margin-top: .4em;
+}
+
 .header h1 {
   padding-top: .88em;
   font-size: 5em;
@@ -34,10 +38,6 @@ p {
   padding: 5em 0;
   margin: auto;
   display: block;
-}
-
-.header {
-  margin-top: .4em;
 }
 
 h2 {
@@ -63,7 +63,7 @@ h2 {
 
 .focus p, .get p {
   display: block;
-  max-width: 52%;
+  max-width: 600px;
   margin:auto auto;
 }
 
@@ -110,6 +110,14 @@ hr {
   margin: 2em 0 .3em 0;
 }
 
+.get .small {
+  display: none;
+}
+
+.get .not-small {
+  display: contents;
+}
+
 .get img {
   max-height: 340px;
   margin: 2em 0 4em 0;
@@ -143,8 +151,8 @@ form input {
 
 footer {
   background-color: #64bb4a;
-  margin-top: 120px;
-  height: 48px;
+  margin-top: 8em;
+  height: 3em;
 }
 
 footer p {
