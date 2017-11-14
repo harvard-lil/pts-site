@@ -15,7 +15,7 @@
 
   .header img {
     max-width: 100%;
-    padding: 3em 0;
+    padding: 3em 0 4em 0;
 
   }
 
@@ -62,11 +62,11 @@
   }
 
   .features img {
-    margin: 3em auto -2em auto;
+    margin: 4em auto -2em auto;
     display: block;
   }
 
-  .features img:first {
+  .features .top-img {
     margin-top: 2em;
   }
 
