@@ -23,6 +23,10 @@
     display: none;
   }
 
+  .carousel-item {
+      height: 50vh;
+  }
+
   .focus p, .get p {
     text-align: left;
     max-width: 100%;
@@ -52,8 +56,9 @@
   .zebra h2 {
     max-width: 100%;
     font-size: 1.5em;
-    margin: .9em 0;
-    line-height: 1.5em;
+    margin: 1em 0;
+    line-height: 1.4em;
+    letter-spacing: .01em;
   }
 
   .features img {
